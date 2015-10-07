@@ -16,7 +16,7 @@ class Journey
   end
 
   def calculate_fare(start, finish)
-    @stations[start.to_sym]=="B" || @stations[finish.to_sym]=="B" ? 3 : 2.5
+    @stations[start.to_sym]=="B" || @stations[finish.to_sym]=="B" ? 300 : 250
   end
 
   def charge_to(start, finish, card)
